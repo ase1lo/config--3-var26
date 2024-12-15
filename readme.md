@@ -44,9 +44,9 @@ python main.py <input_file>
 
 Входной файл `config_input.txt`:
 ```plaintext
-var x := 5
-var y := (1, 2, 3)
-var z := ${x 2 +}
+var numbers := (1, 2, 3, 4)
+var base := 10
+var result := ${base 3 * 5 +}
 ```
 
 Запуск:
@@ -57,9 +57,9 @@ python main.py config_input.txt
 Результат:
 ```toml
 [constants]
-x = 5
-y = [1, 2, 3]
-z = 7
+numbers = [ 1, 2, 3, 4,]
+base = 10
+result = 35
 ```
 
 ### Тестирование `tests.py`
