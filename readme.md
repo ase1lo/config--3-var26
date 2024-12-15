@@ -20,7 +20,7 @@
 
 1. Склонируйте репозиторий или загрузите проект.
    ```bash
-   git clone <>
+   git clone <https://github.com/ase1lo/config--3-var26>
    cd <папка-с-проектом>
    ```
 
